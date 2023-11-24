@@ -1,0 +1,225 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* font-family: josefin Arial, Helvetica, sans-serif;
+    box-sizing: border-box; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/img1.jpeg) */
+}
+
+.div1{
+    background-image: url(img/img1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin-top: -11vh;   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 8%;
+}
+
+.logo{
+   color: antiquewhite;
+   font-size: 35px;
+   letter-spacing: 1px;
+   cursor: pointer;
+   padding-left: 50px;
+}
+
+span{
+   color: crimson;
+   font-style: italic;
+   font-size: 50px;
+}
+
+nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 10px 25px;
+     color: antiquewhite;
+     text-decoration: none;
+     font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li:hover{
+    color: crimson;
+}
+
+nav a{
+    color: crimson;
+    text-decoration: none;
+    font-style: italic;
+    /* font-weight: bold; */
+    /* text-transform: capitalize;
+    transition: 4s; */
+}
+
+.sub{
+    background-color: gold;
+    color: crimson;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    /* transition: transform .4s; */
+    transition-duration: 4s;
+}
+
+.sub:hover{
+    transform: scale(1.2);
+}
+
+.div2{
+    position: absolute;
+    top: 50%;
+    left: 800px;
+    transform: translateX(-500);
+}
+
+h1{
+    color: white;
+    margin: -30px 0 0 20px;
+    font-size: 75px;
+    margin-bottom: -20px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-left: 47px;
+    font-style: italic;
+}
+
+.span1{
+   font-style: normal;
+   font-size: 75px;
+}
+
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-left: 47px;
+}
+
+.div3 form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+
+.div3 form input{
+    display: inline-block;
+   width: 100%;
+   padding: 14px 130px 15px 15px;
+   border: 2px solid white;
+   outline: none;
+   border-radius: 30px;
+   margin-left: 30px;
+   /* justify-content: space-between; */
+}
+
+.div3 form button{
+    display: inline-block;
+   margin: -40px 0 0 600px;
+   position: absolute;
+   display: inline-block;
+   outline: none;
+   border: none;
+   width: 100px;
+   padding-bottom: 12px;
+   padding-top: 10px;
+   border-radius: 30px;
+   background-color: crimson;
+   color: white;
+   box-shadow: 0px 0px 5px #000;
+   top: 45px;
+   right: -170px;
+   /* left: 2px; */
+}
+
+.about{
+    width: 100%;
+    /* height: 110vh; */
+    padding: 100px 0;
+    background-color: #000;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+    border-radius: 70px;
+}
+
+.div3{
+    width: 550px;
+}
+
+.div4{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.button2{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 4s;
+}
+
+.button2:hover{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+
+.div5{
+    background-color: brown;
+    padding: 10px 0 10px 0;
+}
+
+.div7{
+    background-color: antiquewhite;
+    width: 30%;
+}
